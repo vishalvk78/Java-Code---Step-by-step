@@ -1,0 +1,35 @@
+/******************************************************************************
+
+           Write a program to check given element is present in array ot not
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	    int[] arr = {10,20,30,40,50,60};
+	    
+	    int num=10;
+	    
+	    boolean isPresent= false;
+	    
+	    for(int element : arr)
+	    {
+	        if(num==element)
+	        {
+	            isPresent=true;
+	            break;
+	        }
+	    }
+	    
+	    if(isPresent==true)
+		     {
+		         System.out.print("Number present in array");
+		     }
+		     else 
+		     System.out.print("Number not present in array");
+	    
+	    
+	}
+}
