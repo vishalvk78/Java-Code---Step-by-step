@@ -16,5 +16,10 @@ public class Main
 		    System.out.print(arr[i] + " ");
 		}
 		
+		String [] name={"Vishal", "Sham", "Kadam", "Ram"};
+		
+		System.out.println(name[0]);
+		System.out.println(name.length);
+		
 	}
 }
