@@ -1,0 +1,20 @@
+/******************************************************************************
+Create an array of 5 floats and calculate their sum
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+		float [] float_num = {10.5f, 12.6f, 6.8f, 9.8f, 12.4f};
+		
+	    float sum=0;
+	    
+	    for(int i=0; i<float_num.length; i++)
+	    {
+	        sum=sum+float_num[i];
+	    }
+	    
+	    System.out.println("The sum of floats is " + sum);
+	}
+}
