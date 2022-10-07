@@ -1,9 +1,9 @@
 public class Main
 {
 	public static void main(String[] args) {
-		int[] arr;
-		arr=new int[5];
-		arr[0]=1;
+		int[] arr; //decaration
+		arr=new int[5]; //memory allocation
+		arr[0]=1; //initilization
 		arr[1]=2;
 		arr[2]=3;
 		arr[3]=4;
