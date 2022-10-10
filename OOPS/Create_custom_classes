@@ -1,0 +1,68 @@
+/******************************************************************************
+//create custom classes
+
+*******************************************************************************/
+class Employee
+{
+    int id;
+    String name;
+    int salary;
+    String company_name;
+    
+    public void printDetails(){
+        System.out.println("Employee ID is : " + id);
+        System.out.println("Employee Name is : " + name);
+        System.out.println("Employee Company Name is : " + company_name);
+        
+        
+    }
+    
+     public int getSalary()
+    {
+        return salary;
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Employee vishal = new Employee();
+	    Employee chetan = new Employee();
+	    Employee mahesh = new Employee();
+	    
+	    
+	    
+	    vishal.id=1;
+	    vishal.name="Vishal Kadam";
+	    vishal.salary=40000;
+	    vishal.company_name = "Cognizant";
+	    
+	    
+	    chetan.id=2;
+	    chetan.name= "Chetan Zolekar";
+	    chetan.salary=50000;
+	    chetan.company_name= "Tata Technologies";
+	    
+	    mahesh.id=3;
+	    mahesh.name="Mahesh Jadhav";
+	    mahesh.salary=60000;
+	    mahesh.company_name= " Tata Technologies";
+	    
+	    //System.out.println(vishal.id);
+	    //System.out.println(vishal.name);
+	    vishal.printDetails();
+	    int salary = vishal.getSalary();
+	    System.out.println(salary);
+	    
+	    System.out.println();
+	    
+	    chetan.printDetails();
+	    System.out.println(chetan.getSalary());
+	    
+	    System.out.println();
+	    
+	    mahesh.printDetails();
+	    System.out.println(mahesh.getSalary());
+		
+	}
+}
