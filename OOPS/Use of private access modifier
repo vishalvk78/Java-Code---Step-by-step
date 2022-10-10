@@ -1,0 +1,60 @@
+/******************************************************************************
+//use of private access modifier
+
+*******************************************************************************/
+class Employee{
+    private int id;
+    private String name;
+    private int salary;
+    
+    public int getID ()
+    {
+        return id;
+    }
+    
+    public String getName ()
+    {
+        return name;
+    }
+    
+    public int getSalary ()
+    {
+        return salary;
+    }
+    
+    public void setID( int n)
+    {
+        id=n;
+    }
+    
+    public void setName(String m)
+    {
+        name=m;
+    }
+    
+    public void setSalary(int s)
+    {
+        salary = s;
+    }
+    
+}
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	Employee emp1 = new Employee();
+	
+	emp1.setID(1);
+	emp1.setName("Vishal Kadam");
+	emp1.setSalary(100000);
+	
+   System.out.println("Employee ID : " + emp1.getID());
+   System.out.println("Employee name is : " + emp1.getName());
+   System.out.println("Employee salary is : " + emp1.getSalary());
+
+	
+	}
+}
