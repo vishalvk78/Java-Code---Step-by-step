@@ -1,0 +1,52 @@
+/******************************************************************************
+//create custom classes
+
+*******************************************************************************/
+class Employee{
+    String name;
+    int salary;
+    
+    public int getSalary()
+    {
+        return salary;
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+  
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	 Employee emp1 = new Employee();
+	 Employee emp2= new Employee();
+	 Employee emp3 = new Employee();
+	 
+	 emp1.name = "Vishal Kadam";
+	 emp1.salary = 100000;
+	 
+	 emp2.name = "Chetan Zolekar";
+	 emp2.salary = 200000;
+	 
+	 emp3.name = "Sanket Vishwasrao";
+	 emp3.salary = 300000;
+	 
+	 System.out.println("Employee name is : " + emp1.getName());
+	 System.out.println("Employee salary is : " + emp1.getSalary());
+	 
+	 System.out.println();
+	 
+	 System.out.println("Employee name is : " + emp2.getName());
+	 System.out.println("Employee salary is : " + emp2.getSalary());
+	 
+	 System.out.println();	 
+	 
+	 System.out.println("Employee name is : " + emp3.getName());
+	 System.out.println("Employee salary is : " + emp3.getSalary());
+		
+	}
+}
