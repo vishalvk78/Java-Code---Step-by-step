@@ -24,17 +24,17 @@ class Employee{
     
     public void setID( int n)
     {
-        id=n;
+        this.id=n;
     }
     
     public void setName(String m)
     {
-        name=m;
+        this.name=m;
     }
     
     public void setSalary(int s)
     {
-        salary = s;
+        this.salary = s;
     }
     
 }
