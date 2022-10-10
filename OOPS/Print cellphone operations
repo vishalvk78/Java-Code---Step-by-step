@@ -1,0 +1,35 @@
+/******************************************************************************
+//print cellphone operations
+
+*******************************************************************************/
+
+
+class cellphone{
+     public void ring(){
+         System.out.println("Hi, your phone is ringing");
+     }
+     
+     public void vibrate()
+     {
+         System.out.println("Hi, your phone is vibrating");
+     }
+     
+      public void calling()
+     {
+         System.out.println("Hi, Vishal calling you");
+     }
+     
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	cellphone redmi = new cellphone();
+	
+	redmi.ring();
+	redmi.vibrate();
+	redmi.calling();
+	
+	}
+}
